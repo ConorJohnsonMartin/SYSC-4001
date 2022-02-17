@@ -1,0 +1,47 @@
+Test Results
+
+SYSC 4001 - Assignment 1
+Conor Johnson Martin 101106217
+Submitted February 18th, 2022
+
+MANDATORY TEST (System input 25):
+System output:
+
+-----------------------COLLATZ CONJECTURE-----------------------
+
+Enter an integer that is greater than zero (i.e. positive): 25
+
+Child Process 1 is working with collatz integer 25: This integer requires 23 steps
+Child Process 2 is working with collatz integer 50: This integer requires 24 steps
+Child Process 3 is working with collatz integer 75: This integer requires 14 steps
+
+The Minimum # of steps for collatz function: 14
+The Maximum # of steps for collatz function: 24
+The Average # of steps for collats function: 20
+
+Time required to perfom all operations: 823 micro sec
+
+
+
+SECONDARY TEST (System input 88):
+System output:
+
+-----------------------COLLATZ CONJECTURE-----------------------
+
+Enter an integer that is greater than zero (i.e. positive): 88
+
+Child Process 1 is working with collatz integer 88: This integer requires 17 steps
+Child Process 2 is working with collatz integer 176: This integer requires 18 steps
+Child Process 3 is working with collatz integer 264: This integer requires 29 steps
+
+The Minimum # of steps for collatz function: 17
+The Maximum # of steps for collatz function: 29
+The Average # of steps for collats function: 21
+
+Time required to perfom all operations: 790 micro sec
+
+
+
+
+
+

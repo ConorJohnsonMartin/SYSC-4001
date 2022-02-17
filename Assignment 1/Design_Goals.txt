@@ -1,0 +1,14 @@
+Design Goals
+
+SYSC 4001 - Assignment 1
+Conor Johnson Martin 101106217
+Submitted February 18th, 2022
+
+-I used as much code as I could from previous labs for example:
+	-From Lab 3, using all of the shared memory code implemented from my lab solution / from the texbook
+	-From Lab 2, the timing code implemented from my lab solution / from gettimeofday() to get the time it takes to perform all operations
+-I wanted to make the print outs really easy to follow and make the output look generally professional which I feel i have acheived
+-My comments in the code are very descriptive, I think it is important to have good documentation to make comprehension much easier
+-Logical order to the way the code is presented and executed
+-My collatz function which is the brain of the code is very easy to understand and reliable
+-Overall I am very happy with my code and I followed theory/processes the way they were presented to me through lecture and lab exercises
