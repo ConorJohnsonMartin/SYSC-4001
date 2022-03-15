@@ -1,0 +1,14 @@
+Design Goals
+
+SYSC 4001 - Assignment 2
+Conor Johnson Martin 101106217
+Submitted March 15th, 2022
+
+-I used as much code as I could from previous labs for example:
+	-From Lab 3, using all of the shared memory code implemented from my lab solution / from the texbook
+	-From Lab 6, I used my knowledge of semaphores and implemented thread3.c and thread8.c from Lab 6
+-I wanted to make the print outs really easy to follow and make the output look generally professional which I feel i have acheived
+-My comments in the code are very descriptive, I think it is important to have good documentation to make comprehension much easier
+-Logical order to the way the code is presented and executed
+-The printDebugMode took me a while to figure out how I could do it but I am glad with how it turned out. I think it works perfectly. Could be imporoved by also allowing "YES" or "Yes" to enter debug mode.
+-Overall I am very happy with my code and I followed theory/processes the way they were presented to me through lecture and lab exercises

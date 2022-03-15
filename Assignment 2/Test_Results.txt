@@ -1,0 +1,103 @@
+Test Results
+
+SYSC 4001 - Assignment 2
+Conor Johnson Martin 101106217
+Submitted March 15th, 2022
+
+MANDATORY TEST 1. (System input 5A9MW6Z):
+System output (Debug Mode: On):
+
+-----------------------CONCURRENT FILTERING-----------------------
+
+Enter Debug Mode? (Insert yes or no): yes
+
+Enter A String Of 7 Alpha-Numeric Characters (No Spaces): 5A9MW6Z
+
+Process P3: Performed Swapping
+
+Process P2: Performed Swapping
+
+Process P1: Performed Swapping
+
+Process P3: Performed Swapping
+
+Process P2: Performed Swapping
+
+FILTERED RESULT IS: AMWZ596
+
+------------------------FILTERING COMPLETE------------------------
+
+
+
+
+
+MANDATORY TEST 2. (System input 5A9MW6Z):
+System output (Debug Mode: Off):
+
+-----------------------CONCURRENT FILTERING-----------------------
+
+Enter Debug Mode? (Insert yes or no): no
+
+Enter A String Of 7 Alpha-Numeric Characters (No Spaces): 5A9MW6Z
+
+FILTERED RESULT IS: AMWZ596
+
+------------------------FILTERING COMPLETE------------------------
+
+
+
+
+
+
+SECONDARY TEST 3. (System input 123CDEF):
+System output (Debug Mode: On):
+
+-----------------------CONCURRENT FILTERING-----------------------
+
+Enter Debug Mode? (Insert yes or no): yes
+
+Enter A String Of 7 Alpha-Numeric Characters (No Spaces): 123CDEF
+
+Process P3: No Swapping
+
+Process P2: Performed Swapping
+
+Process P1: Performed Swapping
+
+Process P3: Performed Swapping
+
+Process P2: Performed Swapping
+
+Process P1: Performed Swapping
+
+Process P3: Performed Swapping
+
+Process P2: Performed Swapping
+
+FILTERED RESULT IS: CDEF123
+
+------------------------FILTERING COMPLETE------------------------
+
+
+
+
+
+
+SECONDARY TEST 4.(System input 123CDEF):
+System output (Debug Mode: Off):
+
+-----------------------CONCURRENT FILTERING-----------------------
+
+Enter Debug Mode? (Insert yes or no): no
+
+Enter A String Of 7 Alpha-Numeric Characters (No Spaces): 123CDEF
+
+FILTERED RESULT IS: CDEF123
+
+------------------------FILTERING COMPLETE------------------------
+
+
+
+
+
+

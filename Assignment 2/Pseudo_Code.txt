@@ -1,0 +1,43 @@
+Pseudo Code
+
+SYSC 4001 - Assignment 2
+Conor Johnson Martin 101106217
+Submitted March 15th, 2022
+
+init 7 semaphores for each character
+
+enter main
+	create array of 7 semaphores one for each character
+	create pid's
+	debug variable (yes or no)
+	character array to hold the string of 7 characters to be filtered
+	setup shared memory
+	save character array containing string of 7 characters into shared memory
+	fork() child 1 created to handle inputes [4], [5], [6] from shared memory containg character array
+		swaps the values if necessary
+		fork() child 1 created to handle inputes [2], [3], [4] from shared memory containg character array
+			swaps the values if necessary
+				fork() child 1 created to handle inputes [0], [1], [2] from shared memory containg character array
+					swaps the values if necessary
+	Ensures all processes complete before program completes
+exits main
+
+enter determineOrder
+	get semaphore
+	assume letter
+	if number, set numberFound to 1
+	repeat until all number follow any letters
+	release semaphore
+exit determineOrder
+
+enter swapOrder
+	get semaphore
+	if first element is a number and second element is a letter, swap
+	if second element is a number and third element is a letter, swap
+	relese semaphore
+exit swapOrder
+
+enter printDebugMode
+	if debug is set to "yes"
+	print all the statements associated with debug mode
+exit printDebugMode
